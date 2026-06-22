@@ -21,7 +21,7 @@ O(h log₂ h)개의 approximate hint만으로 충분함을 보임.
 
 ---
 
-## [추가] DBDD 프레임워크와 Hint 통합
+## DBDD 프레임워크와 Hint 통합
 
 DBDD(Distorted Bounded Distance Decoding): LWE를 타원형 거리 함수를
 가진 격자 문제로 재정식화. 비밀키 s의 사전 분포를 공분산 행렬 Σ로 표현.
@@ -88,7 +88,7 @@ Dual Hybrid Attack: 축소된 격자에 BKZ 적용 → 비밀키 s 복원
 
 ---
 
-## [추가] 핵심 수치 (논문 결과)
+## 핵심 수치 (논문 결과)
 
 **기존 연구 대비 필요 hint 수 비교:**
 
@@ -114,7 +114,7 @@ GAA: hint 통합 후 비밀키 분포를 Gaussian으로 근사하는 가정.
 
 ---
 
-## [추가] 한계 및 열린 문제
+## 한계 및 열린 문제
 
 **1. Hint 획득 가정의 현실성**  
 공격자가 품질 좋은 approximate hint(작은 β)를 얻으려면
